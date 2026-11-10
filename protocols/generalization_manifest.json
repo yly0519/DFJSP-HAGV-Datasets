@@ -1,0 +1,424 @@
+{
+  "instances": [
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_001",
+      "path": "data/generalization/base/generalization_base_001.json",
+      "sha256": "3238bfa83757f2951210e53d0d21d1e67182a177e65502efa5c5d0734031bd50"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_002",
+      "path": "data/generalization/base/generalization_base_002.json",
+      "sha256": "d171d3efa89002fe24d839fb8e4e7b4b3da29dae2e0668369679089651e0c879"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_003",
+      "path": "data/generalization/base/generalization_base_003.json",
+      "sha256": "f5e13f56e7645dafad34d7234ae08f8e4cee90f21187a1ac501c04fb242d08a5"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_004",
+      "path": "data/generalization/base/generalization_base_004.json",
+      "sha256": "7fa01b9343b0de42133b11568e3acf4db990bc90b11603bf0f342b728641e461"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_005",
+      "path": "data/generalization/base/generalization_base_005.json",
+      "sha256": "ad2008686290815d316adf4a3de740a7c78a43b2f1c3a538684870901daf2a73"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_006",
+      "path": "data/generalization/base/generalization_base_006.json",
+      "sha256": "86ab8e9747ea2fb4c56eea5b2fd3c01cb132ce899b9966a569d629ff5608754e"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_007",
+      "path": "data/generalization/base/generalization_base_007.json",
+      "sha256": "07762620181861f88757a613aa1712d11880dc77e430636e3d5788b85c0d198a"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_008",
+      "path": "data/generalization/base/generalization_base_008.json",
+      "sha256": "890b5c6d80f6750fd2a2dc45a72950c2fff8087208f58921d6d3367c33c46fdf"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_009",
+      "path": "data/generalization/base/generalization_base_009.json",
+      "sha256": "d61d46aac54cd9cb23eaf89f5c873a29c4a5cfef28c840ea48a34158e9e05191"
+    },
+    {
+      "condition": "base",
+      "instance_id": "generalization_base_010",
+      "path": "data/generalization/base/generalization_base_010.json",
+      "sha256": "9f93a6c9afc7b55e1f88d7863ce4d8e3e933d3fb25955b2dee415234761d1f9b"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_001",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_001.json",
+      "sha256": "fd79af06ade87ca342580e65121e3f0e803686656283dcfc037db8c59858b616"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_002",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_002.json",
+      "sha256": "6b12aa056bce146672dc6123b033f6528285f0ec2d8eb7836f59d07cee08a11b"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_003",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_003.json",
+      "sha256": "6cff192374e97c8196ef89ce9fd6f89aeb908126566c81b16e98c6e12caa60ff"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_004",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_004.json",
+      "sha256": "e8c2308e75e3d66ffd0dd6115519151287ffbee0cba405829488ea712b9818e2"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_005",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_005.json",
+      "sha256": "84db2c5f32f13f921b6f176295895918e611aeba307bc195a15315d4eb08593f"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_006",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_006.json",
+      "sha256": "d9ccc1b1f1c934e5a506f3456a4b5bb00c4c314706d3a7736e3e605b5762718f"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_007",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_007.json",
+      "sha256": "4e6a7d03df44a4998784b3d6e0b303d97edd2d9590ad5007a5b96b9b585e9fb5"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_008",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_008.json",
+      "sha256": "c3cb71cb754711f2122b1b5fa1e9958dd02a2b47f8c05ba181227a597ce63da8"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_009",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_009.json",
+      "sha256": "0193b742f7b59581e0704d1581766ec6c86d8fe94e30213e303d2beeabf269eb"
+    },
+    {
+      "condition": "arrival_low",
+      "instance_id": "generalization_arrival_low_010",
+      "path": "data/generalization/arrival_low/generalization_arrival_low_010.json",
+      "sha256": "412a2563f8f725cb9dd15afba6a18b362057356081e3ec04c890730f558b1bce"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_001",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_001.json",
+      "sha256": "f423bdb4d7fb564ad9e92a1589abbd44639444a0abfcff68d8f7f4fdccd0d853"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_002",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_002.json",
+      "sha256": "e51e03aa5fe8cfd67f1e1e47072c4f6b7aee9492a5d3e82929249f75cbacb44c"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_003",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_003.json",
+      "sha256": "8ed197b53511882cea833435ad0634be214b5f75bbe67689c869fce8d9b624a0"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_004",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_004.json",
+      "sha256": "7c56152ef749abdbf846bcde5d3ae803b02fc414cec059ff960125a75ffa47c1"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_005",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_005.json",
+      "sha256": "9768e996efb85611f735913466f8f086deeadf91b160fabd27dd73ce28b597b6"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_006",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_006.json",
+      "sha256": "19317d90910de65721cfefa9b6cbdfc66a76c662b1d9574753c9b4ab02e4a581"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_007",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_007.json",
+      "sha256": "d3b657a62f3c114ea1f733ad3369af105f247be9ee217c494af11fec72e71701"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_008",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_008.json",
+      "sha256": "9a4b5a44c944835c59e851babafb0048ea3cf04a3be06bb0864a726840f3c1a1"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_009",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_009.json",
+      "sha256": "c279322cfb4a60ef5d75fae78db39972fd3b16c8dadfe16b08d494b9f2fff3b0"
+    },
+    {
+      "condition": "arrival_high",
+      "instance_id": "generalization_arrival_high_010",
+      "path": "data/generalization/arrival_high/generalization_arrival_high_010.json",
+      "sha256": "4ab737a2c1835282c80a86b637ae6388ec6ad20ce68f26901587a0cddfc125ce"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_001",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_001.json",
+      "sha256": "5cf80e1c614559c4e61ca1334f3bc28dd1d817d61338b6f335b58a9a75dcce0e"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_002",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_002.json",
+      "sha256": "b22dccae722c90cdac8cfb69e62c40f4c88ff680e7046f5d39e4e8f2f8e7cbb5"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_003",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_003.json",
+      "sha256": "8ce4fc660e40b9329c59284ad1a49e9153b16dd22f7c2526089763b8165ddbab"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_004",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_004.json",
+      "sha256": "cc7988eb4a96ab26f6e4ca799ad8308969e05ed8116593aa1d6f6076a55a6eac"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_005",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_005.json",
+      "sha256": "95e3239916748ab069d6ec9b65b312d15f3b6d3c2478af32168357daf37d5f44"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_006",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_006.json",
+      "sha256": "baed97a8f1a683bd77bc530f5f761ef410c4550440562be457cc992893ebabdc"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_007",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_007.json",
+      "sha256": "f8287f1e06221134e619da246a8ff9e7dd2a0a7ebf47f4b3542b0b8dbdb721e1"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_008",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_008.json",
+      "sha256": "e1552c44a491251606ab45da1a5ea5c575ac635269bfd0e340e9626ce07e17f4"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_009",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_009.json",
+      "sha256": "64249ecb56a6b9ed066734a1c87a77e2e2cf10fe29d6db878bae38af97251d4b"
+    },
+    {
+      "condition": "scale_j30_m15",
+      "instance_id": "generalization_scale_j30_m15_010",
+      "path": "data/generalization/scale_j30_m15/generalization_scale_j30_m15_010.json",
+      "sha256": "1c3301098074f7cd9fcae3b0bf47f71c3434c2a8309fdeeb99150997d7afab73"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_001",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_001.json",
+      "sha256": "b88a097fd5b031955a93b707c956e12860770c373f743cace50bfd35375d5a57"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_002",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_002.json",
+      "sha256": "b37c038d3343a73d1a96da4fcd23b13312aef0d70b625c3705923a8368103730"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_003",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_003.json",
+      "sha256": "4d4db1a8c550f587a014936880390a2c515c6ed2e9fe945b44e204f039b7287e"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_004",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_004.json",
+      "sha256": "c7e5761cb20baf9a832e0048f940b17066140cd50dc15f0872ead2f6c81adde4"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_005",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_005.json",
+      "sha256": "97803f51d6b9205d50b5947f0d1ee0936b8ee03934fad3351b6785c06671ea98"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_006",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_006.json",
+      "sha256": "a11f86485085ab246ee60efce28c383e25ad1e24d542f7c62acd4c4eb8996f80"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_007",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_007.json",
+      "sha256": "ef4b626a847a1ed6a6860a7057693d948cd9fe3f81a2f2635add7f08d77b8562"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_008",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_008.json",
+      "sha256": "64940e5941d15828796b1e03560178b9905a7cc804b7cce041ab7a3d7bd8c648"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_009",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_009.json",
+      "sha256": "8f85c5a55e6149960adabd591102715131a5c8a999917c99657e0f8e3928b6e0"
+    },
+    {
+      "condition": "scale_j40_m20",
+      "instance_id": "generalization_scale_j40_m20_010",
+      "path": "data/generalization/scale_j40_m20/generalization_scale_j40_m20_010.json",
+      "sha256": "3cbc24357c0716e61ac6a956bcae9c9b68f5d16c1ee5d00d58016becabea3b5d"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_001",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_001.json",
+      "sha256": "efbb52136debf459599bf6f4f0458b4bac2079f0b8a7f52f731d26aa3e35fe70"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_002",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_002.json",
+      "sha256": "ab8183700e5f791af67e1e074d1069f17281925007d325360da990f768648c2e"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_003",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_003.json",
+      "sha256": "8ac00f1553652b12cf0eb3bf6e1ed873b81331153c5c3eae238a31cffdf35d78"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_004",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_004.json",
+      "sha256": "63afc5204038554edcf10cccc10f7201c44a03ec383ce4a69588cd44d60d67d1"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_005",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_005.json",
+      "sha256": "964c3fa4e4e6f68165ea1ec6e0207e75c8095754e99cc480dedc74bba7b7b980"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_006",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_006.json",
+      "sha256": "954dda776ca031d846f97078461a9857e3f139bb14d5055109931dca8dd093d2"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_007",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_007.json",
+      "sha256": "64d28ca44744e09f9832a056bd91571ffc1d6b87d284cdba216a9ac6c4657173"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_008",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_008.json",
+      "sha256": "ab2e0d688a9f3a7aecb1cdf03543833261614b3ebb2715a00a704295e1ec5ea5"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_009",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_009.json",
+      "sha256": "df40a7ea0ec57cf3934c70454fef60c53598f8302401fe7f8d782ba9d7780bfe"
+    },
+    {
+      "condition": "fleet_fast_light",
+      "instance_id": "generalization_fleet_fast_light_010",
+      "path": "data/generalization/fleet_fast_light/generalization_fleet_fast_light_010.json",
+      "sha256": "79900862d9e7bf553d3b8585ff9e14a579b89a3ec1d4ea38b2d8e22ee4562cc0"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_001",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_001.json",
+      "sha256": "2be3573310357ed18e70ede66aa661e16fa10642b9cb58337d7f7a37a2e7e9cb"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_002",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_002.json",
+      "sha256": "f38c718c293a702f5bf6ca2da0aefbb1677b0802236ebd1a4f3a0d3057a1a51c"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_003",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_003.json",
+      "sha256": "d42d05303198d3b878ed3e9fbd42e1dbfe6ae9d2349abf9b65291dcf1694ac88"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_004",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_004.json",
+      "sha256": "feb6a52671fc5796323b847ee64774e55b400d3d85e82d70d7e954a8d9438485"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_005",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_005.json",
+      "sha256": "73371fb9b48739b5450743855374cb6463e1196337a60992b5eb52b88523ef0e"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_006",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_006.json",
+      "sha256": "6c28a1e2335c64f857f32358740b7bd92c08ab0cf15ca9464e0537d5ea7da3d5"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_007",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_007.json",
+      "sha256": "2886b375bf1fe8a080db948ac288696994b86802537af90a9060e7516b331fb1"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_008",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_008.json",
+      "sha256": "e9d4bc30af1f76bfc68052a63d2156e979ac0586b8d74b7e9c5e8c7b58634c1e"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_009",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_009.json",
+      "sha256": "ad090505a28f45b02b92212cbe9715e7cb30c8bd7024596a18d0281e7079655f"
+    },
+    {
+      "condition": "fleet_heavy_slow",
+      "instance_id": "generalization_fleet_heavy_slow_010",
+      "path": "data/generalization/fleet_heavy_slow/generalization_fleet_heavy_slow_010.json",
+      "sha256": "6475ea3063e532dbab17d25fbf81dff09dd7d90cd37521a04a4db1be6e98a598"
+    }
+  ]
+}

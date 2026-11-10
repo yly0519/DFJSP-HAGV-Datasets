@@ -1,0 +1,107 @@
+{
+  "arrival_high": {
+    "arrival_rate": 0.3,
+    "dimensions": {
+      "agvs": 9,
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 10
+    },
+    "fleet_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  "arrival_low": {
+    "arrival_rate": 0.025,
+    "dimensions": {
+      "agvs": 9,
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 10
+    },
+    "fleet_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  "base": {
+    "arrival_rate": 0.15,
+    "dimensions": {
+      "agvs": 9,
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 10
+    },
+    "fleet_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  "fleet_fast_light": {
+    "arrival_rate": 0.15,
+    "dimensions": {
+      "agvs": 9,
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 10
+    },
+    "fleet_counts": [
+      5,
+      3,
+      1
+    ]
+  },
+  "fleet_heavy_slow": {
+    "arrival_rate": 0.15,
+    "dimensions": {
+      "agvs": 9,
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 10
+    },
+    "fleet_counts": [
+      1,
+      3,
+      5
+    ]
+  },
+  "scale_j30_m15": {
+    "arrival_rate": 0.15,
+    "dimensions": {
+      "agvs": 12,
+      "initial": 21,
+      "inserted": 9,
+      "jobs": 30,
+      "machines": 15
+    },
+    "fleet_counts": [
+      4,
+      4,
+      4
+    ]
+  },
+  "scale_j40_m20": {
+    "arrival_rate": 0.15,
+    "dimensions": {
+      "agvs": 15,
+      "initial": 28,
+      "inserted": 12,
+      "jobs": 40,
+      "machines": 20
+    },
+    "fleet_counts": [
+      5,
+      5,
+      5
+    ]
+  }
+}

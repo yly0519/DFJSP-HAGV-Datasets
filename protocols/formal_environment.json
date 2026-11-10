@@ -1,0 +1,81 @@
+{
+  "Tr": 250.0,
+  "agv_capacity_speed_heterogeneity_enabled": true,
+  "agv_fleet": [
+    {
+      "agv_id": 0,
+      "agv_type": 0,
+      "capacity": 1.0,
+      "speed": 1.2
+    },
+    {
+      "agv_id": 1,
+      "agv_type": 1,
+      "capacity": 2.0,
+      "speed": 1.0
+    },
+    {
+      "agv_id": 2,
+      "agv_type": 2,
+      "capacity": 3.0,
+      "speed": 0.8
+    },
+    {
+      "agv_id": 3,
+      "agv_type": 0,
+      "capacity": 1.0,
+      "speed": 1.2
+    },
+    {
+      "agv_id": 4,
+      "agv_type": 1,
+      "capacity": 2.0,
+      "speed": 1.0
+    },
+    {
+      "agv_id": 5,
+      "agv_type": 2,
+      "capacity": 3.0,
+      "speed": 0.8
+    },
+    {
+      "agv_id": 6,
+      "agv_type": 0,
+      "capacity": 1.0,
+      "speed": 1.2
+    },
+    {
+      "agv_id": 7,
+      "agv_type": 1,
+      "capacity": 2.0,
+      "speed": 1.0
+    },
+    {
+      "agv_id": 8,
+      "agv_type": 2,
+      "capacity": 3.0,
+      "speed": 0.8
+    },
+    {
+      "agv_id": 9,
+      "agv_type": 0,
+      "capacity": 1.0,
+      "speed": 1.2
+    },
+    {
+      "agv_id": 10,
+      "agv_type": 1,
+      "capacity": 2.0,
+      "speed": 1.0
+    },
+    {
+      "agv_id": 11,
+      "agv_type": 2,
+      "capacity": 3.0,
+      "speed": 0.8
+    }
+  ],
+  "agv_types": 3,
+  "m": 15,
+  "n_agv": 12
+}

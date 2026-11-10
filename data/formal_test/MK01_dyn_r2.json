@@ -1,0 +1,601 @@
+{
+  "base_benchmark": {
+    "file": "MK01.txt",
+    "machine_count_in_source": 6,
+    "sha256": "449ada8093e03a84bf2255fa2a1673ccbc80cce7b82e855c5216533a330751ff"
+  },
+  "content_fingerprint": "fb81a7f2c54c76b69118e03900e86b9c4fbd651f28ebb8617f53a71d4242d4f6",
+  "dynamic_profile": {
+    "arrival_process": "integer_interarrival",
+    "due_date_rule": "arrival_time + int(1.5 * sum(mean(eligible processing times)))",
+    "insertion_start": 250.0,
+    "interarrival_max_inclusive": 79,
+    "interarrival_min": 20
+  },
+  "environment": {
+    "Tr": 250.0,
+    "agv_capacity_speed_heterogeneity_enabled": true,
+    "agv_fleet": [
+      {
+        "agv_id": 0,
+        "agv_type": 0,
+        "capacity": 1.0,
+        "speed": 1.2
+      },
+      {
+        "agv_id": 1,
+        "agv_type": 1,
+        "capacity": 2.0,
+        "speed": 1.0
+      },
+      {
+        "agv_id": 2,
+        "agv_type": 2,
+        "capacity": 3.0,
+        "speed": 0.8
+      },
+      {
+        "agv_id": 3,
+        "agv_type": 0,
+        "capacity": 1.0,
+        "speed": 1.2
+      },
+      {
+        "agv_id": 4,
+        "agv_type": 1,
+        "capacity": 2.0,
+        "speed": 1.0
+      },
+      {
+        "agv_id": 5,
+        "agv_type": 2,
+        "capacity": 3.0,
+        "speed": 0.8
+      },
+      {
+        "agv_id": 6,
+        "agv_type": 0,
+        "capacity": 1.0,
+        "speed": 1.2
+      },
+      {
+        "agv_id": 7,
+        "agv_type": 1,
+        "capacity": 2.0,
+        "speed": 1.0
+      },
+      {
+        "agv_id": 8,
+        "agv_type": 2,
+        "capacity": 3.0,
+        "speed": 0.8
+      },
+      {
+        "agv_id": 9,
+        "agv_type": 0,
+        "capacity": 1.0,
+        "speed": 1.2
+      },
+      {
+        "agv_id": 10,
+        "agv_type": 1,
+        "capacity": 2.0,
+        "speed": 1.0
+      },
+      {
+        "agv_id": 11,
+        "agv_type": 2,
+        "capacity": 3.0,
+        "speed": 0.8
+      }
+    ],
+    "agv_heterogeneity_model": "nested_capacity_compatibility_with_speed",
+    "agv_types": 3,
+    "m": 15,
+    "n_agv": 12,
+    "n_initial": 7,
+    "n_insert": 3,
+    "transport_distance_model": "abs(origin_machine-destination_machine)+1",
+    "transport_time_model": "transport_distance/agv_speed"
+  },
+  "instance_id": "MK01_dyn_r2",
+  "jobs": [
+    {
+      "arrival_time": 0.0,
+      "due_date": 30.0,
+      "job_id": 0,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "0": 5,
+            "2": 4
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "1": 1,
+            "2": 5,
+            "4": 3
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "2": 4,
+            "5": 2
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "2": 1
+          },
+          "operation_id": 4
+        },
+        {
+          "machine_options": {
+            "2": 6,
+            "3": 3,
+            "5": 6
+          },
+          "operation_id": 5
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    },
+    {
+      "arrival_time": 0.0,
+      "due_date": 28.0,
+      "job_id": 1,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "1": 6
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "2": 1
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "0": 2
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "3": 6
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 4
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    },
+    {
+      "arrival_time": 0.0,
+      "due_date": 32.0,
+      "job_id": 2,
+      "job_type": 2,
+      "operations": [
+        {
+          "machine_options": {
+            "1": 6
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "2": 4,
+            "5": 2
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "4": 5
+          },
+          "operation_id": 4
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 3.0
+    },
+    {
+      "arrival_time": 0.0,
+      "due_date": 25.0,
+      "job_id": 3,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "1": 6
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "2": 1
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "1": 1,
+            "2": 5,
+            "4": 3
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "2": 4,
+            "5": 2
+          },
+          "operation_id": 4
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    },
+    {
+      "arrival_time": 0.0,
+      "due_date": 43.0,
+      "job_id": 4,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "1": 1,
+            "2": 5,
+            "4": 3
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "1": 6
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "0": 5,
+            "2": 4
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "3": 6
+          },
+          "operation_id": 4
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 5
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    },
+    {
+      "arrival_time": 0.0,
+      "due_date": 34.0,
+      "job_id": 5,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "2": 4,
+            "5": 2
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "0": 2
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "1": 6
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 4
+        },
+        {
+          "machine_options": {
+            "0": 3,
+            "3": 2
+          },
+          "operation_id": 5
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    },
+    {
+      "arrival_time": 0.0,
+      "due_date": 21.0,
+      "job_id": 6,
+      "job_type": 0,
+      "operations": [
+        {
+          "machine_options": {
+            "5": 1
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "0": 3,
+            "3": 2
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "0": 6,
+            "1": 6,
+            "4": 1
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "2": 1
+          },
+          "operation_id": 4
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 1.0
+    },
+    {
+      "arrival_time": 281.0,
+      "due_date": 317.0,
+      "job_id": 7,
+      "job_type": 2,
+      "operations": [
+        {
+          "machine_options": {
+            "2": 4,
+            "5": 2
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "1": 6,
+            "5": 5
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "1": 6
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "3": 6
+          },
+          "operation_id": 4
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 3.0
+    },
+    {
+      "arrival_time": 331.0,
+      "due_date": 364.0,
+      "job_id": 8,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "5": 1
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "0": 1,
+            "4": 5
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "2": 6,
+            "3": 3,
+            "5": 6
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "0": 2
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 4
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "3": 6
+          },
+          "operation_id": 5
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    },
+    {
+      "arrival_time": 374.0,
+      "due_date": 405.0,
+      "job_id": 9,
+      "job_type": 1,
+      "operations": [
+        {
+          "machine_options": {
+            "2": 4,
+            "5": 2
+          },
+          "operation_id": 0
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "2": 4,
+            "5": 6
+          },
+          "operation_id": 1
+        },
+        {
+          "machine_options": {
+            "1": 1,
+            "2": 5,
+            "4": 3
+          },
+          "operation_id": 2
+        },
+        {
+          "machine_options": {
+            "5": 1
+          },
+          "operation_id": 3
+        },
+        {
+          "machine_options": {
+            "1": 6,
+            "3": 6
+          },
+          "operation_id": 4
+        },
+        {
+          "machine_options": {
+            "0": 3,
+            "3": 2
+          },
+          "operation_id": 5
+        }
+      ],
+      "priority": 1.0,
+      "transport_demand": 2.0
+    }
+  ],
+  "protocol_id": "CIE_PUBLIC_MAIN_TEST_V2",
+  "regime_id": "MK01",
+  "schema_version": "formal-synthetic-dfjsp-hagv-v2",
+  "seeds": {
+    "arrival_seed": 259317
+  },
+  "split": "formal_test"
+}

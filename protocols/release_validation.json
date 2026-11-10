@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "train_instances": 140,
+  "validation_instances": 42,
+  "formal_test_instances": 30,
+  "generalization_instances": 70,
+  "all_formal_cases_match_saved_schedule_inputs": true,
+  "frozen_synthetic_dataset_sha256": "e5e3bd4f5aab0f6408a4d1ddfd8a78bdc8f69d9a127cca6eefefb740dc09f455",
+  "all_282_instances_regenerated_and_match": true
+}

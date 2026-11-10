@@ -1,0 +1,145 @@
+{
+  "created_on": "2026-08-25",
+  "parent_structure_protocol": "SYN-DYN-HAGV-MK01-10-SCALE-V1-20260825",
+  "protocol_id": "SYN-DYN-HAGV-CAPSPEED-MK01-10-SCALE-V2-20260825",
+  "public_benchmark_dependency": false,
+  "purpose": "frozen dynamic FJSP development with bounded AGV capacity-speed heterogeneity",
+  "scale_regimes": [
+    {
+      "agvs": 6,
+      "id": "J10_M06",
+      "initial": 7,
+      "inserted": 3,
+      "jobs": 10,
+      "machines": 6
+    },
+    {
+      "agvs": 12,
+      "id": "J10_M15",
+      "initial": 7,
+      "inserted": 3,
+      "jobs": 10,
+      "machines": 15
+    },
+    {
+      "agvs": 6,
+      "id": "J15_M04",
+      "initial": 10,
+      "inserted": 5,
+      "jobs": 15,
+      "machines": 4
+    },
+    {
+      "agvs": 9,
+      "id": "J15_M08",
+      "initial": 10,
+      "inserted": 5,
+      "jobs": 15,
+      "machines": 8
+    },
+    {
+      "agvs": 6,
+      "id": "J20_M05",
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 5
+    },
+    {
+      "agvs": 9,
+      "id": "J20_M10",
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 10
+    },
+    {
+      "agvs": 12,
+      "id": "J20_M15",
+      "initial": 14,
+      "inserted": 6,
+      "jobs": 20,
+      "machines": 15
+    }
+  ],
+  "schema_version": "formal-synthetic-dfjsp-hagv-v2",
+  "split_protocol": {
+    "train": {
+      "arrival_rates": [
+        0.05,
+        0.1,
+        0.15,
+        0.2
+      ],
+      "arrival_seed_base": 410000,
+      "due_profiles": [
+        [
+          "tight",
+          1.1,
+          1.45
+        ],
+        [
+          "standard",
+          1.3,
+          1.7
+        ],
+        [
+          "relaxed",
+          1.55,
+          2.0
+        ]
+      ],
+      "instances_per_regime": 20,
+      "structure_seed_base": 310000
+    },
+    "validation": {
+      "arrival_rates": [
+        0.075,
+        0.125,
+        0.175
+      ],
+      "arrival_seed_base": 1010000,
+      "due_profiles": [
+        [
+          "tight",
+          1.15,
+          1.5
+        ],
+        [
+          "standard",
+          1.35,
+          1.75
+        ],
+        [
+          "relaxed",
+          1.6,
+          1.95
+        ]
+      ],
+      "instances_per_regime": 6,
+      "structure_seed_base": 910000
+    }
+  },
+  "transport_model": {
+    "agv_capacity_levels": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "agv_speed_levels": [
+      1.2,
+      1.0,
+      0.8
+    ],
+    "batching": false,
+    "battery": false,
+    "eligibility": "capacity >= demand",
+    "failures": false,
+    "job_demand_levels": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "time": "distance / speed"
+  }
+}
