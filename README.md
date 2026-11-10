@@ -54,7 +54,7 @@ The files in `src/` are preserved copies of the original generators. Their optio
 
 - Initial jobs: the first `floor(0.7 × number_of_jobs)` jobs are released at time zero.
 - Remaining jobs: the first arrives after time 250; each interarrival increment is an integer sampled from 20 through 79.
-- Due date: release time plus `int(1.5 × sum of the mean eligible processing times for each operation))`.
+- Due date: `release time + int(1.5 × sum(mean eligible processing time per operation))`.
 - Job class: sampled by the fixed arrival seed using NumPy's legacy seeded random generator; transportation demand is class + 1.
 - AGV classes: capacities 1, 2, and 3; speeds 1.2, 1.0, and 0.8.
 - Eligibility: vehicle capacity must be at least the job's transportation demand.
